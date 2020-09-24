@@ -23,7 +23,8 @@ footer {
     color: #fff;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Fredericka the Great', cursive;
     font-weight: 400;
 }
@@ -36,6 +37,7 @@ h2 {
     font-size: 1.5em;
     color: grey;
     border-bottom: 1px solid #efefef;
+    text-align: center;
 }
 
 p {

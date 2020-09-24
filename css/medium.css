@@ -2,14 +2,17 @@
     header img {
         float: right;
     }
+
     header,
-footer {
-    border-radius: 5px;
-}
-h1 {
-    font-size: 3em;
-}
-h2 {
-    font-size: 2em;
-}
+    footer {
+        border-radius: 5px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
 }
