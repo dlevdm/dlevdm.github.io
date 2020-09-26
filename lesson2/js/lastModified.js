@@ -1,1 +1,1 @@
-document.getElementById('lastModified').innerHTML= document.lastModified 
+document.getElementById('lastModified2').innerHTML= document.lastModified 
