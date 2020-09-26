@@ -36,7 +36,8 @@ main section:nth-child(4) {
 
 main section img {
     box-shadow: 5px 10px #888;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     margin: 0.5rem;
 }
 
