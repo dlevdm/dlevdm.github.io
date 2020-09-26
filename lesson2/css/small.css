@@ -90,6 +90,10 @@ a:visited {
     text-align: center;
 }
 
+h2.menuarea {
+    text-align: center;
+}
+
 .boldname {
     font-weight: bold;
     font-size: 1em;
