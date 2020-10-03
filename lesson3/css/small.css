@@ -62,7 +62,7 @@ main section:nth-child(2) {
 
 main section img {
     box-shadow: 5px 10px #888;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     margin: 0.5rem 0;
 }
@@ -125,4 +125,22 @@ h2.menuarea {
     font-size: 0.7em;
     margin-top: -2.2em;
     color: #fff;
+}
+.fontstyling1 {
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.fontstyling2 {
+    font-family: 'Open Sans', sans-serif;
+}
+.greenstyling {
+    color: #fff;
+    background-color: #315c2b;
+    padding: 1em;
+}
+.blackstyling {
+    color: #000;
+}
+.bluestyling {
+    color: #7189FF;
 }
