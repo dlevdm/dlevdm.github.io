@@ -91,6 +91,11 @@ h2 {
     text-align: left;
 }
 
+h3 {
+    font-size: 1.5em;
+    color: #999;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
 }
