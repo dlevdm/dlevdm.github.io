@@ -10,7 +10,7 @@ main,
 footer {
     margin: 1.25em auto;
     max-width: 1060px;
-} 
+}
 
 nav {
     text-align: center;
@@ -19,7 +19,7 @@ nav {
 nav ul {
     list-style: none;
     margin: 0;
-	padding: 0;
+    padding: 0;
     overflow: hidden;
 }
 
@@ -27,19 +27,19 @@ nav ul a {
     text-decoration: none;
     display: block;
     background-color: #eee;
-	color: #333;
-	text-align: center;
-	padding: 0.75rem;
-	font-size: 0.95rem;
+    color: #333;
+    text-align: center;
+    padding: 0.75rem;
+    font-size: 0.95rem;
 }
 
 nav a:hover {
-	background-color: #999;
-	color: #fff;
+    background-color: teal;
+    color: #fff;
 }
 
 .active {
-	color: blue;
+    color: blue;
 }
 
 main {
@@ -59,13 +59,25 @@ main section:nth-child(2) {
     display: block;
     margin: 0.5rem;
 }
-main section:nth-child(2), main section:nth-child(4), main section:nth-child(6), main section:nth-child(8), main section:nth-child(10), main section:nth-child(12) {
+
+main section:nth-child(2),
+main section:nth-child(4),
+main section:nth-child(6),
+main section:nth-child(8),
+main section:nth-child(10),
+main section:nth-child(12) {
     grid-column: span 2;
 }
 
-main section:nth-child(1), main section:nth-child(3), main section:nth-child(5), main section:nth-child(7), main section:nth-child(9), main section:nth-child(11) {
+main section:nth-child(1),
+main section:nth-child(3),
+main section:nth-child(5),
+main section:nth-child(7),
+main section:nth-child(9),
+main section:nth-child(11) {
     border: solid 1px #999;
 }
+
 main section img {
     box-shadow: 5px 10px #888;
     max-width: 100%;
@@ -99,7 +111,16 @@ h2 {
 
 h3 {
     font-size: 1.5em;
-    color:orangered;
+    color: orangered;
+}
+
+h3 a {
+    color: orangered;
+}
+
+h4 {
+    font-size: 1.3em;
+    color: teal;
 }
 
 p {
@@ -137,32 +158,39 @@ h2.menuarea {
     margin-top: -2.2em;
     color: #fff;
 }
+
 .fontstyling1 {
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .fontstyling2 {
     font-family: 'Open Sans', sans-serif;
 }
+
 .greenstyling {
     color: #fff;
     background-color: #315c2b;
     padding: 0.6em;
 }
+
 .yellowstyling {
     color: #000;
     background-color: #f6f86b;
     padding: 1.2em;
 }
+
 .greenstyling2 {
-    color: #315c2b; 
+    color: #315c2b;
 }
+
 .bluestyling2 {
-    color: #7189FF; 
+    color: #7189FF;
 }
+
 .blackstyling {
     color: #000;
 }
+
 .bluestyling {
     color: #fff;
     background-color: #7189FF;
