@@ -196,3 +196,17 @@ h2.menuarea {
     background-color: #7189FF;
     padding: 1em;
 }
+
+.one {
+    font-size: 2.2em;
+}
+
+.two {
+    font-size: 1.7em;
+    color: grey;
+    text-align: left;
+}
+
+.three {
+    font-size: 1.5em;
+}
