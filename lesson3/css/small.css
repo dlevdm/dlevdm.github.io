@@ -52,14 +52,20 @@ main section {
     padding: 0 2rem;
     background-color: #f8f8f8;
     font-size: 0.95em;
-    border: 1px dashed #999;
+    border: 1px dotted #999;
 }
 
 main section:nth-child(2) {
     display: block;
     margin: 0.5rem;
 }
+main section:nth-child(2), main section:nth-child(4), main section:nth-child(6), main section:nth-child(8), main section:nth-child(10), main section:nth-child(12) {
+    grid-column: span 2;
+}
 
+main section:nth-child(1), main section:nth-child(3), main section:nth-child(5), main section:nth-child(7), main section:nth-child(9), main section:nth-child(11) {
+    border: solid 1px #999;
+}
 main section img {
     box-shadow: 5px 10px #888;
     max-width: 100%;
@@ -82,7 +88,7 @@ h2 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 h2 {
@@ -141,11 +147,24 @@ h2.menuarea {
 .greenstyling {
     color: #fff;
     background-color: #315c2b;
-    padding: 1em;
+    padding: 0.6em;
+}
+.yellowstyling {
+    color: #000;
+    background-color: #f6f86b;
+    padding: 1.2em;
+}
+.greenstyling2 {
+    color: #315c2b; 
+}
+.bluestyling2 {
+    color: #7189FF; 
 }
 .blackstyling {
     color: #000;
 }
 .bluestyling {
-    color: #7189FF;
+    color: #fff;
+    background-color: #7189FF;
+    padding: 1em;
 }
