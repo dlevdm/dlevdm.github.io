@@ -21,12 +21,12 @@
     }
 
     .active {
-        color: #ff4500;
+        color: darkgreen;
         background-color: #7189FF;
     }
 
     .navigation a:hover {
-        color: #ff4500;
+        color: darkgreen;
         background-color: #7189FF;
     }
 
