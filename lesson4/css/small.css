@@ -79,8 +79,6 @@ nav ul {
     background-color: #7189FF;
 }
 
-main {}
-
 main img {
     max-width: 100%;
     height: auto;
@@ -107,7 +105,7 @@ main article img {
     max-width: 80%;
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 0.5em;
+    padding: 0.2em;
     font-size: 0.75rem;
 }
 .weathersummary h2,
@@ -145,7 +143,7 @@ h2 {
 }
 
 h1 {
-    font-size: 1.6em;
+    font-size: 1.2em;
     text-transform: uppercase;
     line-height: 1;
     color: #315c2b;
