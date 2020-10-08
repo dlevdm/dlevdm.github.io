@@ -76,5 +76,11 @@
 	.subheading1 {
 		font-size: 1.5em;
 	}
-
+    .weathersummary {
+        margin-top: -30em;
+        margin-left: 10em;
+        max-width: 30%;
+        padding: 1em;
+        font-size: 1rem;
+    }
 }

@@ -7,4 +7,11 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 100px;
     }
+    .weathersummary {
+        margin-top: -20em;
+        margin-left: 5em;
+        max-width: 50%;
+        padding: 1em;
+        font-size: 0.75rem;
+    }
 }

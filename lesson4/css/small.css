@@ -12,7 +12,7 @@ header,
 .bottomsection  {
     margin: 0 auto;
     max-width: 100%;
-    padding: 1em 1em;
+    padding: 1em;
 }
 
 header img {
@@ -102,12 +102,13 @@ main article img {
 
 .weathersummary {
     position: absolute;
-    margin-top: -32em;
-    margin-left: 10em;
-    max-width: 30%;
+    margin-top: -15em;
+    margin-left: 3em;
+    max-width: 80%;
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 1em;
+    padding: 0.5em;
+    font-size: 0.75rem;
 }
 .weathersummary h2,
 .weathersummary a {
