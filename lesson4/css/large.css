@@ -85,12 +85,11 @@
 	.subheading1 {
 		font-size: 1.5em;
 	}
-
+	
 	.weathersummary {
-		margin-top: -25em;
-		margin-left: 10em;
 		max-width: 30%;
 		padding: 0.8em;
 		font-size: 1rem;
+		transform: translate(-100%, 0);
 	}
 }

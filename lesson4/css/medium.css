@@ -10,8 +10,6 @@
     }
 
     .weathersummary {
-        margin-top: -20em;
-        margin-left: 5em;
         max-width: 50%;
         padding: 1em;
         font-size: 0.75rem;
