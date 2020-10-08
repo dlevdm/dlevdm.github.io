@@ -100,7 +100,7 @@ main article img {
 
 .weathersummary {
     position: absolute;
-    margin-top: -10em;
+    margin-top: -8em;
     margin-left: 3em;
     max-width: 80%;
     color: white;
@@ -150,7 +150,7 @@ h2 {
 }
 
 h1 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-transform: uppercase;
     line-height: 1;
     color: #315c2b;
