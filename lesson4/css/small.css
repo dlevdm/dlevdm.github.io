@@ -92,7 +92,7 @@ main section {
 }
 
 main article img {
-    box-shadow: no;
+    box-shadow: none;
     max-width: 100%;
     height: auto;
     margin: 0.5rem;
