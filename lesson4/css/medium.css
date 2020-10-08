@@ -9,16 +9,6 @@
         grid-gap: 100px;
     }
 
-    .weathersummary {
-        max-width: 50%;
-        padding: 1em;
-        font-size: 0.75rem;
-    }
-
-    .weathersummary p {
-        display: block;
-    }
-
     .active {
         color: darkgreen;
         background-color: #1f74d1;
