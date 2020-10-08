@@ -9,7 +9,7 @@ header,
 .copyrightdetails,
 .mainarticle,
 .topsection,
-.bottomsection  {
+.bottomsection {
     margin: 0 auto;
     max-width: 100%;
     padding: 1em;
@@ -67,7 +67,7 @@ nav ul {
 
 .navigation a:hover {
     color: yellow;
-    background-color:#7189FF;
+    background-color: #7189FF;
 }
 
 .responsive li {
@@ -108,10 +108,16 @@ main article img {
     padding: 0.2em;
     font-size: 0.75rem;
 }
+
 .weathersummary h2,
 .weathersummary a {
     color: white;
 }
+
+.weathersummary p {
+    display: none;
+}
+
 .heroimage {
     position: relative;
 }
@@ -126,6 +132,7 @@ footer {
     background: #ff4500;
     color: #fff;
 }
+
 .footermenu {
     display: grid;
     grid-template-columns: 1fr;
