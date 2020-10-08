@@ -100,7 +100,7 @@ main article img {
 
 .weathersummary {
     position: absolute;
-    margin-top: -5em;
+    margin-top: -7em;
     margin-left: 3em;
     max-width: 80%;
     color: white;
@@ -191,6 +191,11 @@ footer h3 {
 
 .footermenu {
     background-color: #315c2b;
+}
+
+.footer iframe {
+    width: 100%;
+    height: auto;
 }
 
 .highlighted {
