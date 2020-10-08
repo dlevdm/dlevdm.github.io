@@ -1,0 +1,208 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header,
+.footermenu,
+.copyrightdetails,
+.mainarticle,
+.topsection,
+.bottomsection  {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1em 1em;
+}
+
+header img {
+    float: left;
+    max-width: 100px;
+}
+
+#siteheader {
+    color: #fff;
+}
+
+.subheading1 {
+    font-size: 1em;
+    color: #fff;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 10em;
+    background-color: #7189FF;
+    text-align: center;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav ul {
+    margin: 0;
+    overflow: hidden;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+.navigation a:hover {
+    color: yellow;
+    background-color:#7189FF;
+}
+
+.responsive li {
+    display: block;
+}
+
+.active {
+    color: yellow;
+    background-color: #7189FF;
+}
+
+main {}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+main section {
+    background-color: #fff;
+    font-size: 0.95em;
+    margin: 0;
+    padding: 0;
+}
+
+main article img {
+    box-shadow: no;
+    max-width: 100%;
+    height: auto;
+    margin: 0.5rem;
+}
+
+.weathersummary {
+    position: absolute;
+    margin-top: -32em;
+    margin-left: 10em;
+    max-width: 30%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1em;
+}
+.weathersummary h2,
+.weathersummary a {
+    color: white;
+}
+.heroimage {
+    position: relative;
+}
+
+header {
+    text-align: left;
+    background: #ff4500;
+    color: #fff;
+}
+
+footer {
+    background: #ff4500;
+    color: #fff;
+}
+.footermenu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.copyrightdetails {
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #315c2b;
+}
+
+h2 {
+    font-size: 1.7em;
+    color: #000;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: grey;
+}
+
+h3 a {
+    color: grey;
+}
+
+h4 {
+    font-size: 1.3em;
+    color: teal;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer p {
+    line-height: 1;
+}
+
+footer a,
+footer h3 {
+    color: #fff
+}
+
+.footermenu {
+    background-color: #315c2b;
+}
+
+.highlighted {
+    color: yellow;
+}
+
+.returnlink {
+    text-align: center;
+}
+
+h2.menuarea {
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+}
+
+.boldname {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* Sections */
