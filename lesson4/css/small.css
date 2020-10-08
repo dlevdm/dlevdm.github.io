@@ -100,7 +100,7 @@ main article img {
 
 .weathersummary {
     position: absolute;
-    margin-top: -15em;
+    margin-top: -10em;
     margin-left: 3em;
     max-width: 80%;
     color: white;
