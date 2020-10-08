@@ -17,7 +17,7 @@ header,
 
 header img {
     float: left;
-    max-width: 100px;
+    max-width: 90px;
 }
 
 #siteheader {
@@ -27,11 +27,12 @@ header img {
 .subheading1 {
     font-size: 1em;
     color: #fff;
+    margin-top: -1em;
 }
 
 nav {
     margin: 0 auto;
-    padding: 0 1em;
+    padding: 0;
     background-color: #1f74d1;
     text-align: center;
 }
