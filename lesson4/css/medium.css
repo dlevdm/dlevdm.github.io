@@ -22,12 +22,12 @@
 
     .active {
         color: darkgreen;
-        background-color: #7189FF;
+        background-color: #1f74d1;
     }
 
     .navigation a:hover {
         color: darkgreen;
-        background-color: #7189FF;
+        background-color: #1f74d1;
     }
 
 }

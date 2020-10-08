@@ -33,7 +33,7 @@ nav {
     margin: 0 auto;
     max-width: 100%;
     padding: 0 10em;
-    background-color: #7787d9;
+    background-color: #1f74d1;
     text-align: center;
 }
 
@@ -67,7 +67,7 @@ nav ul {
 
 .navigation a:hover {
     color: black;
-    background-color: #7189FF;
+    background-color: #1f74d1;
 }
 
 .responsive li {
@@ -76,7 +76,7 @@ nav ul {
 
 .active {
     color: black;
-    background-color: #7189FF;
+    background-color: #1f74d1;
 }
 
 main img {
