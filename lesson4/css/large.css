@@ -1,11 +1,6 @@
 @media only screen and (min-width: 60em) {
 
 	header,
-	footer {
-		border-radius: 5px;
-	}
-
-	header,
 	.footermenu,
 	.copyrightdetails,
 	.mainarticle,
