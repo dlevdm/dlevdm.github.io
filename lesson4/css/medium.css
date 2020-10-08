@@ -1,10 +1,5 @@
 @media only screen and (min-width: 37.5em) {
 
-    header img {
-        float: left;
-        max-width: 150px;
-    }
-
     .footermenu {
         grid-template-columns: 1fr 1fr;
         grid-gap: 100px;
