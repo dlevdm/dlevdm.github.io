@@ -25,7 +25,7 @@ header img {
 }
 
 .subheading1 {
-    font-size: 1em;
+    font-size: 0.75em;
     color: #fff;
     margin-top: -1em;
     font-style: italic;
@@ -204,5 +204,3 @@ h2.menuarea {
     font-weight: bold;
     font-size: 1em;
 }
-
-/* Sections */
