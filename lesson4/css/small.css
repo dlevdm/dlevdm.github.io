@@ -76,7 +76,7 @@ nav ul {
     display: block;
 }
 
-.active {
+.navigation a.active {
     color: black;
     background-color: #1f74d1;
 }
@@ -109,6 +109,13 @@ main article img {
 
 .heroimage {
     position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.heroimage img {
+    object-fit: cover;
+    width: 100%;
 }
 
 header {
@@ -170,7 +177,8 @@ p {
 }
 
 footer p {
-    line-height: 1;
+    line-height: 1.2;
+    font-size: 0.75em;
 }
 
 footer a,
@@ -182,9 +190,8 @@ footer h3 {
     background-color: #315c2b;
 }
 
-.footer iframe {
+iframe.maparea {
     width: 100%;
-    height: auto;
 }
 
 .highlighted {
