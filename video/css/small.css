@@ -1,0 +1,109 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header,
+main,
+footer {
+    margin: 1.25em auto;
+    max-width: 1060px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main section {
+    margin: 0.5rem;
+    padding: 0 2rem;
+    background-color: #f8f8f8;
+    font-size: 0.95em;
+    border: 1px dashed #999;
+}
+
+main section:nth-child(2) {
+    display: block;
+    margin: 0.5rem;
+}
+
+main section:nth-child(4) {
+    display: block;
+    margin: 0.5rem;
+    background-color: #fff;
+    border: none;
+}
+
+main section img {
+    box-shadow: 5px 10px #888;
+    width: 100%;
+    height: auto;
+    margin: 0.5rem 0;
+}
+
+header,
+footer {
+    padding: 1em;
+    text-align: center;
+    background: royalblue;
+    color: #fff;
+}
+
+h1,
+h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+    color: grey;
+    text-align: left;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer p {
+    line-height: 1;
+}
+
+footer a {
+    color: #fff
+}
+
+.highlighted {
+    color: yellow;
+}
+
+a,
+a:visited {
+    color: blue;
+}
+
+.returnlink {
+    text-align: center;
+}
+
+h2.menuarea {
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+}
+
+.boldname {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.subheading1 {
+    font-size: 0.7em;
+    margin-top: -2.2em;
+    color: #333;
+}
