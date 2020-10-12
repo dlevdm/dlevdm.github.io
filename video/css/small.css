@@ -21,19 +21,6 @@ main section {
     padding: 0 2rem;
     background-color: #f8f8f8;
     font-size: 0.95em;
-    border: 1px dashed #999;
-}
-
-main section:nth-child(2) {
-    display: block;
-    margin: 0.5rem;
-}
-
-main section:nth-child(4) {
-    display: block;
-    margin: 0.5rem;
-    background-color: #fff;
-    border: none;
 }
 
 main section img {
@@ -41,6 +28,11 @@ main section img {
     width: 100%;
     height: auto;
     margin: 0.5rem 0;
+}
+
+.video {
+    width: 100%;
+    height: 500px
 }
 
 header,

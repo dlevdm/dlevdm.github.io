@@ -5,22 +5,6 @@
         border-radius: 5px;
     }
 
-    main {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    main section:nth-child(2) {
-        display: block;
-    }
-
-    main section:nth-child(3) {
-        grid-column: span 2;
-    }
-
-    main section:nth-child(4) {
-        grid-column: span 2;
-    }
-
     h1 {
         font-size: 3em;
     }
