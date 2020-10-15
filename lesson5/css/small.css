@@ -191,11 +191,16 @@ footer p {
 
 footer a,
 footer h3 {
-    color: #fff
+    color: #fff;
+    line-height: 0.8em;
 }
 
 .footermenu {
     background-color: #315c2b;
+}
+
+.sociallinks img {
+    padding: 0 0.5em 0 0;
 }
 
 iframe.maparea {
