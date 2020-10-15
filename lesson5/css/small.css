@@ -9,10 +9,18 @@ header,
 .copyrightdetails,
 .mainarticle,
 .topsection,
-.bottomsection {
+.bottomsection,
+.fridayalert {
     margin: 0 auto;
     max-width: 100%;
     padding: 1.5em 1em;
+}
+
+.fridayalert {
+    color: #1f74d1;
+    text-align: center;
+    background-color: lightyellow;
+    display: none;
 }
 
 header img {
