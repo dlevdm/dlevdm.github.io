@@ -93,6 +93,15 @@
 		color: white;
 	}
 
+	.mainarticle img {
+		max-width: 35%;
+		height: auto;
+		float: right;
+		margin-left: 1em;
+		margin-top: 5em;
+	}
+	
+
 	footer p {
 		line-height: 1;
 		font-size: 1em;

@@ -101,11 +101,10 @@ main section {
     padding: 0;
 }
 
-main article img {
+.mainarticle img {
     box-shadow: none;
     max-width: 100%;
     height: auto;
-    margin: 0.5rem;
 }
 
 .weathersummary {
