@@ -114,10 +114,13 @@ main section {
     padding: 1em;
 }
 
-.heroimage {
-    position: relative;
+.herosection {
     margin: 0 auto;
     max-width: 100%;
+}
+
+.heroimage {
+    position: relative;
 }
 
 .heroimage img {
