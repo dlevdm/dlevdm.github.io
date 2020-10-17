@@ -95,6 +95,7 @@
 
 	.mainarticle img {
 		max-width: 35%;
+		max-height: 300px;
 		height: auto;
 		float: right;
 		margin-left: 1em;
