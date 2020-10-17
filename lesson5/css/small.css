@@ -112,6 +112,7 @@ main section {
     margin: 0 auto;
     max-width: 100%;
     padding: 1em;
+    background-color: #000;
 }
 
 .herosection {
