@@ -82,15 +82,9 @@
 		position: absolute;
 		top: 22em;
 		left: 12em;
-		color: white;
 		min-width: 20%;
 		padding: 1.5em;
 		font-size: 1rem;
-	}
-
-	.weathersummary h2,
-	.weathersummary a {
-		color: white;
 	}
 
 	.mainarticle img {
