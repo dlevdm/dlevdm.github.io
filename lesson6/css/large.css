@@ -88,11 +88,6 @@
 		font-size: 1rem;
 	}
 
-	.weathersummary h2,
-	.weathersummary a {
-		color: white;
-	}
-
 	.mainarticle img {
 		max-width: 35%;
 		max-height: 300px;

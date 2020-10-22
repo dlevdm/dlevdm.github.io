@@ -115,6 +115,15 @@ main section {
     background-color: #000;
 }
 
+.weathersummary h2,
+.weathersummary a {
+    color: white;
+}
+
+.weathersummary {
+    color: white;
+}
+
 .herosection {
     margin: 0 auto;
     max-width: 100%;
