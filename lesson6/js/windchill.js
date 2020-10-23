@@ -6,6 +6,3 @@
         output = Math.round(windchillfactor) + "&#176;F";
     }
     document.getElementById("windchilloutput").innerHTML = output;
-
-console.log(output); 
-
