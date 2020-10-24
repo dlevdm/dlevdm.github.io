@@ -238,7 +238,11 @@ footer h3 {
     padding: 0 0.5em 0 0;
 }
 
-iframe.maparea {
+.maparea {
+    width: 100%;
+}
+
+.maparea img {
     width: 100%;
 }
 
