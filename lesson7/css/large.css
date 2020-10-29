@@ -6,7 +6,8 @@
 	.mainarticle,
 	.topsection,
 	.bottomsection,
-	.fridayalert {
+	.fridayalert,
+	.lazyloadgallery {
 		margin: 0 auto;
 		max-width: 100%;
 		padding: 1.8em 10em;
@@ -96,7 +97,21 @@
 		margin-left: 1em;
 		margin-top: 5em;
 	}
-	
+
+	/* Lazy Load Gallery */
+	.lazyloadgallery {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.lazyloadgallery :nth-child(1) {
+		grid-column: 1 / span 3;
+	}
+
+	.lazyloadgallery figure:hover {
+		box-shadow: 0px 0px 11px 4px #999999;
+	}
+
+	/* Footer */
 
 	footer p {
 		line-height: 1;

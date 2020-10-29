@@ -10,7 +10,8 @@ header,
 .mainarticle,
 .topsection,
 .bottomsection,
-.fridayalert {
+.fridayalert,
+.lazyloadgallery {
     margin: 0 auto;
     max-width: 100%;
     padding: 1.5em 1em;
@@ -166,6 +167,36 @@ header {
     background-color: #ff4500;
     color: #fff;
 }
+
+/* Lazy Load Gallery */
+.lazyloadgallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 2em;
+}
+
+.lazyloadgallery img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
+.lazyloadgallery img[data-src] {
+    filter: blur(0.2em);
+}
+
+.lazyloadgallery figure {
+    text-align: center;
+}
+
+.lazyloadgallery figcaption {
+    background-color: #f8f8f8;
+    padding: 1em;
+    margin: 0;
+}
+
+/* Footer */
 
 footer {
     background-color: #000;

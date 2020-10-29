@@ -23,5 +23,14 @@
         font-size: 1em;
     }
 
+    /* Lazy Load Gallery */
+	.lazyloadgallery {
+		grid-template-columns: 1fr 1fr;
+    }
+    
+    .lazyloadgallery :nth-child(1) {
+		grid-column: 1 / span 2;
+	}
+
 
 }
