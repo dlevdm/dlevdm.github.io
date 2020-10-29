@@ -196,6 +196,10 @@ header {
     margin: 0;
 }
 
+.lazyloadgallery h2 {
+    text-align: center;
+}
+
 /* Footer */
 
 footer {

@@ -25,12 +25,13 @@
 
     /* Lazy Load Gallery */
 	.lazyloadgallery {
-		grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.5em;
     }
     
     .lazyloadgallery :nth-child(1) {
 		grid-column: 1 / span 2;
-	}
+    }
 
 
 }
