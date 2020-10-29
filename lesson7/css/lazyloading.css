@@ -84,7 +84,7 @@ footer p {
     line-height: 1;
 }
 
-footer a {
+footer a, footer a:visited {
     color: #fff
 }
 
