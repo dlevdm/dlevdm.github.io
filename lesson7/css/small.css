@@ -179,7 +179,7 @@ header {
 
 .lazyloadgallery img {
     filter: blur(0em);
-    transition: filter 1s;
+    transition: filter 0.5s;
 }
 
 .lazyloadgallery img[data-src] {
