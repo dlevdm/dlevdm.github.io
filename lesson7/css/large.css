@@ -103,7 +103,7 @@
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
-	.lazyloadgallery :nth-child(1) {
+	.lazyloadgallery h2:nth-child(1) {
 		grid-column: 1 / span 3;
 	}
 
