@@ -174,7 +174,7 @@ header {
     grid-template-columns: 1fr;
     justify-content: center;
     align-content: center;
-    grid-gap: 2em;
+    grid-gap: 1em;
 }
 
 .lazyloadgallery img {
@@ -188,6 +188,7 @@ header {
 
 .lazyloadgallery figure {
     text-align: center;
+    margin: 0;
 }
 
 .lazyloadgallery figcaption {

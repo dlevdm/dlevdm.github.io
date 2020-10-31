@@ -101,6 +101,7 @@
 	/* Lazy Load Gallery */
 	.lazyloadgallery {
 		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2em;
 	}
 
 	.lazyloadgallery h2:nth-child(1) {
