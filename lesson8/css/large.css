@@ -112,6 +112,11 @@
 		box-shadow: 0px 0px 11px 4px #999999;
 	}
 
+	/* Form */
+	form label.sbs {
+		padding: 0.2rem 0;
+	}
+
 	/* Footer */
 
 	footer p {
