@@ -86,6 +86,10 @@ tbody tr:nth-child(odd) {
     background-color: #e7f0ed;
 }
 
+tbody tr:nth-child(5) td:first-child {
+    font-style: italic;
+}
+
 thead tr:first-child {
     color: black;
     background-color: #7fb9c2;
