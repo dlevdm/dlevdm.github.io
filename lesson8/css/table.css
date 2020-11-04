@@ -1,0 +1,142 @@
+/* Basic Elements */
+
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header,
+main,
+footer {
+    margin: 1.25em auto;
+    max-width: 1060px;
+}
+
+header,
+footer {
+    padding: 1em;
+    text-align: center;
+    background: royalblue;
+    color: #fff;
+}
+
+@media only screen and (min-width: 32.5em) {
+
+    header,
+    footer {
+        border-radius: 5px;
+    }
+}
+
+h1,
+h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+    color: grey;
+    text-align: left;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a,
+a:visited {
+    color: blue;
+}
+
+/* Main Section */
+
+table {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1em auto;
+    width: 80%;
+}
+@media only screen and (min-width: 37.5em) {
+table {
+    width: 40%;
+}
+}
+
+th, td {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 2px solid #bbb;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+
+thead tr:first-child {
+    color: black;
+    background-color: #7fb9c2;
+    font-size: 2em;
+}
+
+thead tr:nth-child(2) {
+    color: white;
+    background-color: #628ca6;
+    font-size: 1.5em;
+}
+.failedtarget {
+    color: white;
+    background-color: #628ca6;
+}
+thead th {
+    padding: 0.2em 0.5em;
+}
+tbody td, tfoot td {
+    padding: 0.4em 0.2em;
+}
+tbody td {
+    font-size: 1.2em;
+}
+tfoot td {
+    font-size: 0.9em;
+}
+
+/* Footer */
+
+footer p {
+    line-height: 1;
+}
+
+footer a,
+footer a:visited {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Other */
+
+.highlighted {
+    color: yellow;
+}
+
+.returnlink {
+    text-align: center;
+}
+
+h2.menuarea {
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+}
