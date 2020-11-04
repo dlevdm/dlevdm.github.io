@@ -54,20 +54,22 @@ a:visited {
     color: blue;
 }
 
-/* Main Section */
+/* Main Section with Table */
 
 table {
     font-family: 'Ubuntu', sans-serif;
     margin: 1em auto;
     width: 80%;
 }
+
 @media only screen and (min-width: 37.5em) {
-table {
-    width: 40%;
-}
+    table {
+        width: 40%;
+    }
 }
 
-th, td {
+th,
+td {
     text-align: center;
 }
 
@@ -78,7 +80,25 @@ td {
     border-collapse: collapse;
 }
 
-tbody tr:nth-child(even) {
+table caption {
+    color: black;
+    background-color: #7fb9c2;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+}
+
+thead tr {
+    color: white;
+    background-color: #628ca6;
+    font-size: 1.5em;
+}
+
+thead th {
+    padding: 0.2em 0.5em;
+}
+
+tbody tr {
     background-color: #e7ffed;
 }
 
@@ -90,31 +110,21 @@ tbody tr:nth-child(5) td:first-child {
     font-style: italic;
 }
 
-thead tr:first-child {
-    color: black;
-    background-color: #7fb9c2;
-    font-size: 2em;
-}
-
-thead tr:nth-child(2) {
-    color: white;
-    background-color: #628ca6;
-    font-size: 1.5em;
-}
 .failedtarget {
     color: white;
     background-color: #628ca6;
     font-size: 24px;
 }
-thead th {
-    padding: 0.2em 0.5em;
-}
-tbody td, tfoot td {
+
+tbody td,
+tfoot td {
     padding: 0.4em 0.2em;
 }
+
 tbody td {
     font-size: 1.2em;
 }
+
 tfoot td {
     font-size: 0.9em;
 }
