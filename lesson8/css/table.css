@@ -100,6 +100,7 @@ thead tr:nth-child(2) {
 .failedtarget {
     color: white;
     background-color: #628ca6;
+    font-weight: bold;
 }
 thead th {
     padding: 0.2em 0.5em;
