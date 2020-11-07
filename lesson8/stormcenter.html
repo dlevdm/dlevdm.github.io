@@ -36,7 +36,7 @@
     <main>
         <section class="mainarticle">
             <h2>Storm Center</h2>
-            <p>Welcome to the Idaho Weather Seeker Storm Center. Submit a report below:</p>
+            <p>Welcome to the Idaho Weather Seeker Storm Center. Report details about your Storm below:</p>
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Personal Details</legend>
@@ -61,7 +61,7 @@
                         </datalist>
                     </label>
                     <label class="top">Storm Severity Rating:
-                        <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                        <input name="stormseverity" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                             oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
                     </label>
@@ -79,14 +79,14 @@
                         <option value="10">
                     </datalist>
                     <label class="top">Storm Region
-                        <select name="subject" id="regions">
+                        <select name="subject" id="regions" onchange="selectResponse()">
                             <option value="">Select Region &#9662;</option>
                             <option value="preston">Preston</option>
                             <option value="sodasprings">Soda Springs</option>
                             <option value="fishhaven">Fish Haven</option>
                         </select>
                     </label>
-                    <div>User in danger?</div>
+                    <div class="danger">User in danger?</div>
                     <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
                     <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
                     <label class="sbs"><input type="radio" name="danger" value="no"> No</label>

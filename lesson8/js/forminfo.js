@@ -1,5 +1,5 @@
 function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
+	document.getElementById("ratingvalue").innerHTML = rating;
 }
 
 function selectResponse() {
@@ -7,5 +7,5 @@ function selectResponse() {
 	const sel = document.querySelector('#regions');
 	s.style.display = "block";
 	s.textContent = sel.value;
-	
+
 }
