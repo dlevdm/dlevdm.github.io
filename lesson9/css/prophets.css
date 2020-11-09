@@ -87,7 +87,6 @@ a:visited {
     .cards {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
-    width: 100%;
     }
 
     .cards section {
@@ -102,6 +101,7 @@ a:visited {
 @media only screen and (min-width: 60em) {
     .cards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
     }
 }
 
