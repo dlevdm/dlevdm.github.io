@@ -287,6 +287,7 @@ form label.top input:required:valid {
     background-color: #f8f8f8;
     padding: 0.4em;
     text-align: center;
+    margin: .5rem auto;
 }
 
 .towns h2 {
@@ -303,9 +304,8 @@ form label.top input:required:valid {
     text-align: center;
 }
 
-.towns img {
+.towns section img {
     width: 90%;
-    box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.9);
     margin: 1em auto;
 }
 
@@ -402,4 +402,7 @@ h2.menuarea {
 .boldname {
     font-weight: bold;
     font-size: 1em;
+}
+h2.homeheader {
+    text-align: center;
 }
