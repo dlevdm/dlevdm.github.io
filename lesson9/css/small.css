@@ -406,3 +406,12 @@ h2.menuarea {
 h2.homeheader {
     text-align: center;
 }
+.introtext {
+    background-color: #1f74d1;
+    color: #fff;
+    padding: 1em;
+    font-style: italic;
+}
+.homearticle {
+    line-height: 1.8;
+}
