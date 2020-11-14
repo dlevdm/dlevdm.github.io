@@ -42,10 +42,8 @@
         flex-direction: row;
     }
 
-    .towns section:nth-child(1) {
+    .towns section:nth-child(3) {
         flex-direction: row-reverse;
-        grid-row-start: 2;
-        grid-row-end: 3;
     }
 
     .towns section img {

@@ -23,6 +23,7 @@ fetch(requestURL)
                 let image = document.createElement('img');
 
                 //dle code for populating info
+                towninfodenise.setAttribute('class', towns[i].name);
                 h2.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
                 founded.textContent = "Year Founded: " + towns[i].yearFounded;

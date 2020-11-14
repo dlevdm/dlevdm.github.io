@@ -130,10 +130,8 @@
 		padding: 2em;
 	}
 
-	.towns section:nth-child(1) {
+	.towns section:nth-child(3) {
 		flex-direction: column;
-		grid-row-start: 1;
-		grid-row-end: 2;
 	}
 
 	.towns section img {

@@ -207,22 +207,27 @@ form fieldset {
     margin: 2rem 0;
     border: 1px solid #1f74d1;
     border-radius: 10px;
-    padding: 0.5rem 2%; 
+    padding: 0.5rem 2%;
 }
+
 form legend {
-    color:#1f74d1;
+    color: #1f74d1;
     margin: 0 1rem;
     padding: 0 0.5rem;
     font-size: 1.2rem;
 }
-form label .top, form div {
+
+form label .top,
+form div {
     display: block;
     padding-top: 1rem;
-    color:#ff4500;
+    color: #ff4500;
     font-size: 1.2rem;
     font-weight: bold;
 }
-form label.top, form label.top select {
+
+form label.top,
+form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1.2rem;
@@ -231,6 +236,7 @@ form label.top, form label.top select {
     width: 85%;
     max-width: 30rem;
 }
+
 form label.sbs {
     display: block;
     padding: 0.75em 0.75em;
@@ -257,13 +263,17 @@ form input.submitBtn {
     max-width: 30rem;
     font-size: 28px;
 }
+
 form input.submitBtn:hover {
     background-color: #000;
 }
+
 form label.top input:required {
     border-top: #ff4500 solid 6px;
 }
-form input, form textarea {
+
+form input,
+form textarea {
     border-radius: 0.3rem;
     width: 100%;
     padding: 0.5em;
@@ -291,14 +301,14 @@ form label.top input:required:valid {
 }
 
 .towns h2 {
-    color:#1f74d1;
+    color: #1f74d1;
     font-weight: bold;
     text-align: center;
     line-height: 0.8;
 }
 
 .towns h3 {
-    color:#ff4500;
+    color: #ff4500;
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -307,6 +317,18 @@ form label.top input:required:valid {
 .towns section img {
     width: 90%;
     margin: 1em auto;
+}
+
+.Preston {
+    order: 1;
+}
+
+.Soda {
+    order: 2;
+}
+
+.Fish {
+    order: 3;
 }
 
 /* Footer */
@@ -403,15 +425,18 @@ h2.menuarea {
     font-weight: bold;
     font-size: 1em;
 }
+
 h2.homeheader {
     text-align: center;
 }
+
 .introtext {
     background-color: #1f74d1;
     color: #fff;
     padding: 1em;
     font-style: italic;
 }
+
 .homearticle {
     line-height: 1.8;
 }
