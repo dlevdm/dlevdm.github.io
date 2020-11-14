@@ -9,7 +9,8 @@ body {
 header,
 main,
 footer,
-.cards {
+.cards
+.wireframes {
     margin: 1.25em auto;
     max-width: 1060px;
 }
@@ -129,4 +130,7 @@ footer a:visited {
 h2.menuarea {
     text-align: center;
     border-bottom: 1px solid #efefef;
+}
+.wireframes img {
+    max-width:100%;
 }
