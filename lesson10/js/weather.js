@@ -15,8 +15,17 @@ fetch(weatherAPI)
 
         const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
         const desc = jsObject.weather[0].description;
-        document.getElementById('temperatureinput').textContent = jsObject.main.temp;
+        const tempF = jsObject.main.temp;
+        const speed = jsObject.wind.speed;
+        document.getElementById('temperatureinput').textContent = tempF;
         document.getElementById('weatherdescription').textContent = desc;
         document.getElementById('weatherhumidity').textContent = jsObject.main.humidity;
-        document.getElementById('windspeedinput').textContent = jsObject.wind.speed;
+        document.getElementById('windspeedinput').textContent = speed;
+
+        let output = "N/A";
+        if (tempF <= 50 && speed > 3) {
+            let windchillfactor = 35.74 + 0.6215 * tempF - 35.75 * Math.pow(speed, 0.16) + 0.4275 * tempF * Math.pow(speed, 0.16);
+            output = Math.round(windchillfactor) + "&#176;F";
+        }
+        document.getElementById("windchilloutput").innerHTML = output;
     });
