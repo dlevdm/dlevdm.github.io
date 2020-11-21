@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="description" content="Idaho Weather Seeker page for Preston">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/small.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Idaho Weather Seeker | Preston | Denise van der Merwe</title>
+</head>
+
+<body>
+    <aside>
+        <div class="fridayalert">
+            Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+        </div>
+    </aside>
+
+    <header>
+        <img src="images/logo-idahows.png" alt="Weather Seeker Logo">
+        <h1 id="siteheader">Idaho Weather Seeker</h1>
+        <p class="subheading1">We find and snitch on weather and events in your area</p>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#" class="active">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="herosection">
+            <picture class="heroimage">
+                <source media="(max-width: 400px)" srcset="images/preston2-400.jpg">
+                <source media="(min-width: 401px) and (max-width: 960px)" srcset="images/preston2-960.jpg">
+                <source media="(min-width: 961px)" srcset="images/preston2.jpg">
+                <img src="images/preston2.jpg" alt="franklin image">
+            </picture>
+            <section class="weathersummary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="weatherdescription"></span></p>
+                <p>Current Temperature: <span id="temperatureinput"></span> &#176;F</p>
+                <p>Wind Chill: <span id="windchilloutput"></span></p>
+                <p>Humidity: <span id="weatherhumidity"></span>%</p>
+                <p>Wind Speed: <span id="windspeedinput"></span> mph</p>
+            </section>
+        </div>
+
+        <section class="topsection">
+            <h2>Five Day Forecast</h2>
+            <div class="weathertable">
+                <div class="dayofweek">
+                    <h3 id="dayofweek1"></h3>
+                    <img src="" alt="" id="icon1">
+                    <p id="forecast1"></p>
+                </div>
+                <div class="dayofweek">
+                    <h3 id="dayofweek2"></h3>
+                    <img src="" alt="" id="icon2">
+                    <p id="forecast2"></p>
+                </div>
+                <div class="dayofweek">
+                    <h3 id="dayofweek3"></h3>
+                    <img src="" alt="" id="icon3">
+                    <p id="forecast3"></p>
+                </div>
+                <div class="dayofweek">
+                    <h3 id="dayofweek4"></h3>
+                    <img src="" alt="" id="icon4">
+                    <p id="forecast4"></p>
+                </div>
+                <div class="dayofweek">
+                    <h3 id="dayofweek5"></h3>
+                    <img src="" alt="" id="icon5">
+                    <p id="forecast5"></p>
+                </div>
+            </div>
+        </section>
+        <article class="mainarticle">
+            <img src="images/idaho-farm.jpg" alt="Idaho Farmland">
+            <h2 id="weathername">Soda Springs</h2>
+            <p><a href="https://www.sodaspringsid.com/">Sodaspringsid.com</a> says that Soda Springs is the 'Perfect hub
+                for adventure'.</p>
+            <figure>
+                <blockquote>Soda Springs is a community rich in history and overflowing with the potential for growth
+                    and
+                    expansion. It has the safety, friendliness and support of a small town while also offering a prime
+                    location for industry, agriculture and business. Soda Springs features five beautiful parks that
+                    offer playgrounds, pavilions, hiking, biking and cross country ski trails surrounded in nature, as
+                    well as an 18-hole disc golf course. Within 5 to 20 minutes of Soda Springs is access to swimming,
+                    fishing, boating, snow machining, camping, ATV trails, bird watching and hunting.</blockquote>
+                <figcaption><a href="https://www.sodaspringsid.com/" target="_blank">Read more about Soda Springs, Idaho
+                        on their
+                        website.</a></figcaption>
+            </figure>
+            <h3>The Best Time to Visit</h3>
+            <p><a href="https://weatherspark.com">WeatherSpark.com</a> says that based on the tourism score,
+                the best time of year to visit Soda Springs for warm-weather activities is from early
+                July to mid August. </p>
+            <figure>
+                <blockquote>"In Soda Springs, the summers are warm, dry, and mostly clear and the winters are freezing,
+                    snowy, and
+                    partly cloudy. Over the course of the year, the temperature typically varies from 10°F to 81°F and
+                    is
+                    rarely below -6°F or above 87°F."</blockquote>
+                <figcaption><a
+                        href="https://weatherspark.com/y/2757/Average-Weather-in-Soda-Springs-Idaho-United-States-Year-Round"
+                        target="_blank">Read More about Soda Spring's Weather Patterns on the WeatherSpark website</a>
+                </figcaption>
+            </figure>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footermenu">
+            <div class="maparea">
+                <a href="https://goo.gl/maps/KoYKNWcjnAoGHuSh8" target="_blank">
+                    <img src="images/map-of-preston.jpg" alt="map of Preston">
+                    <p>Google Map of Preston - Click here to zoom in</p>
+                </a>
+            </div>
+            <div>
+                <h3>Contact Information</h3>
+                <p>Email: info@idahows.com</p>
+                <div class="sociallinks">
+                    <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="#" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyrightdetails">
+            <p>&copy; <span id="currentYear"></span> | Denise van der Merwe | Cape Town, South Africa | <a
+                    href="https://www.byui.edu/online">BYUI Online Learning</a> | <a href="../index.html">Back to Main
+                    Portal</a></p>
+            <p class="highlighted">Current Date: <span id="currentdate"></span></p>
+        </div>
+    </footer>
+    <script src="js/currentYear.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/displayAlert.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
