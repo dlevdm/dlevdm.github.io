@@ -119,7 +119,7 @@ main section {
 }
 
 article a, article a:visited {
-    color: #1f74d1;
+    color: #053364;
 }
 
 article figure {
@@ -130,7 +130,7 @@ article figure {
 }
 
 article figure figcaption {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .weathersummary {
