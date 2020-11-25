@@ -1,0 +1,58 @@
+@media only screen and (min-width: 37.5em) {
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    .footermenu {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+    }
+
+    .active {
+        color: darkgreen;
+        background-color: #1f74d1;
+    }
+
+    .navigation a:hover {
+        color: darkgreen;
+        background-color: #1f74d1;
+    }
+
+    .subheading1 {
+        font-size: 1em;
+    }
+
+    /* Lazy Load Gallery */
+    .lazyloadgallery {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.5em;
+    }
+
+    .lazyloadgallery h2:nth-child(1) {
+        grid-column: 1 / span 2;
+    }
+
+    /* Town Info */
+    .towns section {
+        background-color: #efefef;
+        padding: 2em;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .towns section:nth-child(3) {
+        flex-direction: row-reverse;
+    }
+
+    .towns section img {
+        width: 50%;
+        margin: 1em;
+    }
+
+    .towns div {
+        width: 50%;
+    }
+
+}

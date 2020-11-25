@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="description" content="Idaho Weather Seeker page for Preston">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/small.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Idaho Weather Seeker | Home | Denise van der Merwe</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo-idahows.png" alt="Weather Seeker Logo">
+        <h1 id="siteheader">Idaho Weather Seeker</h1>
+        <p class="subheading1">We find and snitch on weather and events in your area</p>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="herosection">
+            <picture class="heroimage">
+                <source media="(max-width: 400px)" srcset="images/idaho2-400.jpg">
+                <source media="(min-width: 401px) and (max-width: 960px)" srcset="images/idaho2-960.jpg">
+                <source media="(min-width: 961px)" srcset="images/idaho2.jpg">
+                <img src="images/idaho2.jpg" alt="franklin image">
+            </picture>
+        </div>
+
+        <div class="towns"></div>
+        <article class="mainarticle">
+            <h2 class="homeheader">Welcome to the Idaho Weather Seeker</h2>
+            <p class="introtext">When you think of Idaho, you think of potatoes, but what is Idaho really like? Idaho is
+                a hidden gem in the USA, and we find and snitch on weather in Idaho so that you will know when it is the
+                perfect time to
+                really enjoy this beautiful part of
+                our country.</p>
+
+            <p class="homearticle">"Adjacent to Washington and Oregon in the Pacific Northwest, Idaho is a big state.
+                It’s been said if you
+                flatten all the mountains in Idaho, the state would be the size of Texas. Idaho covers two time zones,
+                runs from Canada to Nevada, and encompasses the western side of the continental divide of the Rocky
+                Mountains. Rivers, mountains and farmland dominate the state’s landscape. The panhandle has emerald
+                green hillsides, timbered mountains and pristine lakes. Central Idaho is covered with jagged peaks. The
+                Snake River Plain, with its wide open vistas, irrigated farm lands and vibrant cities forms the
+                character of Southern Idaho. . .Whichever part of this magnificent state you choose to discover, you’ll
+                find spectacular scenery, fun
+                things to do and friendly, helpful people. You’ll also find a place that’s unhurried, unspoiled and
+                unassuming. So linger awhile and discover Idaho." - Read More at <a
+                    href="https://visitidaho.org/about-idaho/" target="_blank">VisitIdaho.Org</a></p>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footermenu">
+            <div class="maparea">
+                <a href="https://goo.gl/maps/tE2vMCYhyXg98FTs7" target="_blank">
+                    <img src="images/map-of-idaho.jpg" alt="map of Idaho">
+                    <p>Google Map of Idaho - Click here to zoom in</p>
+                </a>
+            </div>
+            <div>
+                <h3>Contact Information</h3>
+                <p>Email: info@idahows.com</p>
+                <div class="sociallinks">
+                    <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="#" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyrightdetails">
+            <p>&copy; <span id="currentYear"></span> | Denise van der Merwe | Cape Town, South Africa | <a
+                    href="https://www.byui.edu/online">BYUI Online Learning</a> | <a href="../index.html">Back to Main
+                    Portal</a> | <a href="home-wireframes.html">Wireframes</a></p>
+            <p class="highlighted">Current Date: <span id="currentdate"></span></p>
+        </div>
+    </footer>
+    <script src="js/currentYear.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/towns.js"></script>
+</body>
+
+</html>
