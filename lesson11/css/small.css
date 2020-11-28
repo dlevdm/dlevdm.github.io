@@ -18,7 +18,8 @@ header,
 .bottomsection,
 .fridayalert,
 .lazyloadgallery,
-.towns {
+.towns,
+.eventssection {
     margin: 0 auto;
     max-width: 100%;
     padding: 1.5em 1em;
@@ -131,6 +132,10 @@ article figure {
 
 article figure figcaption {
     font-size: 0.8em;
+}
+
+.eventssection {
+    background-color: #f8fcda;
 }
 
 .weathersummary {
