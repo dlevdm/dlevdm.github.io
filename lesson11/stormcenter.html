@@ -61,8 +61,8 @@
                         </datalist>
                     </label>
                     <label class="top">Storm Severity Rating:
-                        <input name="stormseverity" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
-                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <input name="stormseverity" type="range" id="rating" value="5" min="1" max="10" step="1"
+                            list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
                     </label>
                     <datalist id="tickmarks">
@@ -94,8 +94,7 @@
 
                 <fieldset>
                     <legend>Additional Information</legend>
-                    <label class="top">Comments: <textarea
-                            name="additional"></textarea></label>
+                    <label class="top">Comments: <textarea name="additional"></textarea></label>
                 </fieldset>
 
                 <input type="submit" value="Report Storm" class="submitBtn">
@@ -122,10 +121,11 @@
             </div>
         </div>
         <div class="copyrightdetails">
-            <p>&copy; <span id="currentYear7"></span> | Denise van der Merwe | Cape Town, South Africa | <a
+            <p>&copy; <span id="currentYear"></span> | Denise van der Merwe | Cape Town, South Africa | <a
                     href="https://www.byui.edu/online">BYUI Online Learning</a> | <a href="../index.html">Back to Main
                     Portal</a></p>
-            <p class="highlighted">Current Date: <span id="currentdate"></span></p>
+            <p class="highlighted">Current Date: <span id="currentdate"></span> | <a href="terms-of-use.html"
+                    class="highlighted">Terms of Use</a></p>
         </div>
     </footer>
     <script src="js/currentYear.js"></script>
