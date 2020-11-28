@@ -21,7 +21,7 @@ fetch(apiURL)
             const imagesrc = 'https://openweathermap.org/img/w/' + forecast[day].weather[0].icon + '.png';
             const desc = forecast[day].weather[0].description;
             document.getElementById("dayofweek" + (day + 1)).textContent = weekdays[d.getDay()];
-            document.getElementById("forecast" + (day + 1)).innerHTML = forecast[day].main.temp + " &#176;F";
+            document.getElementById("forecast" + (day + 1)).innerHTML = Math.round(forecast[day].main.temp) + " &#176;F";
             document.getElementById("icon" + (day + 1)).setAttribute('src', imagesrc);
             document.getElementById("icon" + (day + 1)).setAttribute('alt', desc);
         }
