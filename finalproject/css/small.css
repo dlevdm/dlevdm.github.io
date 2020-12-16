@@ -148,16 +148,11 @@ main h2 {
 button {
     padding: 1em;
     background-color:#e94f37;
-    color: #ffffff;
+    color: #000000;
     border: none;
     margin: 1em;
     font-size: 1.5em;
     border-radius: 5px;
-}
-
-button a, button a:visited {
-    color: #000000;
-    text-decoration: none;
 }
 
 main section {
