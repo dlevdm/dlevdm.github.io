@@ -10,6 +10,10 @@ blockquote {
     margin: 0;
 }
 
+blockquote a {
+    font-size: 1.2em;
+}
+
 header,
 .footermenu,
 .copyrightdetails,
@@ -481,11 +485,11 @@ h2 {
 
 h3 {
     font-size: 1.5em;
-    color:#e94f37;
+    color: grey;
 }
 
 h3 a {
-    color: #e94f37;
+    color: grey;
 }
 
 h4 {
