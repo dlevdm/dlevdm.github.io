@@ -4,18 +4,6 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
-blockquote {
-    padding: 0.5em;
-    font-style: italic;
-    margin: 0;
-}
-
-blockquote a {
-    font-size: 1.2em;
-    font-weight: bold;
-    font-style: normal;
-}
-
 header,
 .footermenu,
 .copyrightdetails,
@@ -172,6 +160,19 @@ main section {
     height: auto;
 }
 
+blockquote {
+    padding: 0.5em;
+    font-style: italic;
+    margin: 0;
+}
+
+blockquote a, blockquote a:visited {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: normal;
+    color: #005f8b;
+}
+
 article figure {
     margin: 0;
     background-color: #f8f8f8;
@@ -181,10 +182,6 @@ article figure {
 
 article figure figcaption {
     font-size: 0.8em;
-}
-
-.eventssection {
-    background-color: #f8fcda;
 }
 
 .weathersummary {
@@ -253,6 +250,7 @@ article figure figcaption {
     width: 100%;
     max-height: 550px;
 }
+
 
 /* Table */
 table {
