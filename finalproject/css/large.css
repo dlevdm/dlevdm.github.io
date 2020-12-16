@@ -119,37 +119,6 @@
 		padding: 0.2rem 0.75em;
 	}
 
-	/* Town Info */
-	.towns {
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 2em;
-	}
-
-	.towns section {
-		display: flex;
-		flex-direction: column;
-		padding: 2em;
-	}
-
-	.towns section:nth-child(3) {
-		flex-direction: column;
-	}
-
-	.towns section img {
-		width: 100%;
-		margin: 1em 0;
-	}
-
-	.towns h3 {
-		background: #fff;
-		padding: 2em;
-		font-size: 20px;
-	}
-
-	.towns div {
-		width: 100%;
-	}
-
 	/* Footer */
 
 	footer p {
