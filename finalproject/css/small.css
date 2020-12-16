@@ -33,12 +33,16 @@ header,
     display: block;
 }
 
+#alertarea {
+    font-size: 1.2em;
+}
+
 .closebtn {
     margin-left: 15px;
     color: white;
     font-weight: bold;
     float: right;
-    font-size: 22px;
+    font-size: 2em;
     line-height: 20px;
     cursor: pointer;
     transition: 0.3s;
@@ -124,6 +128,10 @@ nav ul {
 }
 
 /* Main */ 
+main a, main a:visited {
+    color: #e94f37;
+}
+
 main img {
     max-width: 100%;
     height: auto;
@@ -143,6 +151,13 @@ button {
     color: #ffffff;
     border: none;
     margin: 1em;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+button a, button a:visited {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 main section {
@@ -154,10 +169,6 @@ main section {
     box-shadow: none;
     max-width: 100%;
     height: auto;
-}
-
-main a, main a:visited {
-    color: #e94f37;
 }
 
 article figure {
@@ -274,10 +285,6 @@ table caption {
     font-family: 'Varela Round', sans-serif;
 }
 
-table caption, thead {
-
-}
-
 thead tr {
     color: #000;
     background-color: #adc4e5;
@@ -348,9 +355,10 @@ tfoot td {
     margin: 0;
 }
 
-.rentaltypes a, .rentaltypes figcaption {
+.rentaltypes figcaption a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
 .lazyloadgallery h2 {
@@ -436,54 +444,6 @@ form textarea {
 
 form label.top input:required:valid {
     border: 2px solid #005f8b;
-}
-
-/* Town Info */
-
-.towns {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
-    grid-gap: 0.5em;
-}
-
-.towns section {
-    background-color: #f8f8f8;
-    padding: 0.4em;
-    text-align: center;
-    margin: .5rem auto;
-}
-
-.towns h2 {
-    color: #1f74d1;
-    font-weight: bold;
-    text-align: center;
-    line-height: 0.8;
-}
-
-.towns h3 {
-    color: #ff4500;
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
-}
-
-.towns section img {
-    width: 90%;
-    margin: 1em auto;
-}
-
-.Preston {
-    order: 1;
-}
-
-.Soda {
-    order: 2;
-}
-
-.Fish {
-    order: 3;
 }
 
 /* Footer */
