@@ -27,7 +27,7 @@ header,
 }
 
 .weatheralert {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     background-color: #bcad84;
     display: block;
@@ -39,7 +39,7 @@ header,
 
 .closebtn {
     margin-left: 15px;
-    color: white;
+    color: #000000;
     font-weight: bold;
     float: right;
     font-size: 2em;
