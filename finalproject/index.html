@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="description" content="~Scoots motor scooter rental company located in Cozumel.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/small.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>~Scoots Motor Scooter Rental Company | Cozumel | Home</title>
+</head>
+
+<body>
+    <aside>
+        <div class="weatheralert">
+            <span class="closebtn" onclick="closebutton()">&times;</span> 
+            <span id="alertarea">No Weather Alerts</span>
+          </div>
+    </aside>
+
+    <header>
+        <img src="images/scooter-logo-512.png" alt="Scoots Logo">
+        <h1 id="siteheader">~Scoots</h1>
+        <p class="subheading1">We give you fresh air and freedom
+        </p>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="herosection">
+            <picture class="heroimage">
+                <source media="(max-width: 450px)" srcset="images/Cozumel1-450.jpg">
+                <source media="(min-width: 451px) and (max-width: 960px)" srcset="images/Cozumel1-960.jpg">
+                <source media="(min-width: 961px)" srcset="images/Cozumel1.jpg">
+                <img src="images/Cozumel1.jpg" alt="Cozumel Sunset">
+            </picture>
+            <section class="weathersummary">
+                <h2>How's the Weather?</h2>
+                <p>Current Temperature: <span id="temperatureinput"></span> &#176;F</p>
+                <p>Currently: <span id="weatherdescription"></span></p>
+                <p>Humidity: <span id="weatherhumidity"></span>%</p>
+                <h2>3 Day Forecast</h2>
+                <div class="weathertable">
+                    <div class="dayofweek">
+                        <h3 id="dayofweek1">Day</h3>
+                        <img src="images/sun-icon.png" alt="icon" id="icon1">
+                        <p id="forecast1"></p>
+                    </div>
+                    <div class="dayofweek">
+                        <h3 id="dayofweek2">Day</h3>
+                        <img src="images/sun-icon.png" alt="icon" id="icon2">
+                        <p id="forecast2"></p>
+                    </div>
+                    <div class="dayofweek">
+                        <h3 id="dayofweek3">Day</h3>
+                        <img src="images/sun-icon.png" alt="icon" id="icon3">
+                        <p id="forecast3"></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="calltoaction">
+            <h2>Welcome to ~Scoots</h2>
+            <p>We are a Motor Scooter Rental company located on the island of Cozumel off the coast of Mexixo in the
+                western Caribbean Sea. We have two rental locations. One is near the Playa del Carmen-Cozumel Ferry dock
+                in el Centro de Cozumel and the other is near the Terminal Puerta Maya further South along the coast. We
+                also offer Jeep and side-by-side ATV rentals.</p>
+            <p><a href="reservations.html"><button>Make a Rental Reservation</button></a></p>
+        </section>
+
+        <section class="topsection">
+            <h2>Types of Rentals</h2>
+            <p>Click the links below to view more information about each category</p>
+            <div class="rentaltypes">
+                <figure>
+                    <a href="rentals.html">
+                        <img src="images/Cozumel7-450.jpg" alt="Honda Scooter">
+                        <figcaption>Scooter Rental</figcaption>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="rentals.html">
+                        <img src="images/atv-sidebyside.jpg" alt="ATV Side-by-Side">
+                        <figcaption>Side-by-Side ATV Rental</figcaption>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="rentals.html">
+                        <img src="images/jeep-wrangler.jpg" alt="Jeep Wrangler">
+                        <figcaption>Jeep Rental</figcaption>
+                    </a>
+                </figure>
+            </div>
+            </figure>
+        </section>
+
+        <section class="lazyloadgallery">
+            <h2>Gallery</h2>
+            <figure>
+                <img data-src="images/Cozumel2-450.jpg" src="images/placeholder-2.png" alt="Vintage Truck">
+            </figure>
+            <figure>
+                <img data-src="images/Cozumel6-450.jpg" src="images/placeholder-2.png" alt="Cruise Ship">
+            </figure>
+            <figure>
+                <img data-src="images/Cozumel15-450.jpg" src="images/placeholder-2.png" alt="Idaho Moody Weather">
+            </figure>
+            <figure>
+                <img data-src="images/Cozumel11-450.jpg" src="images/placeholder-2.png" alt="Autumn Trees and Weather">
+            </figure>
+            <figure>
+                <img data-src="images/Cozumel12-450.jpg" src="images/placeholder-2.png" alt="Spring Weather">
+            </figure>
+            <figure>
+                <img data-src="images/Cozumel14-450.jpg" src="images/placeholder-2.png" alt="Snow-capped Peaks">
+            </figure>
+        </section>
+
+        <div class=""></div>
+    </main>
+
+    <footer>
+        <div class="footermenu">
+            <div>
+                <h3>Contact Information</h3>
+                <p>Email: scoots@scootsrentals.com</p>
+                <div class="sociallinks">
+                    <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="#" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyrightdetails">
+            <p>&copy; <span id="currentYear"></span> ~Scoots | Site by Denise van der Merwe | <a
+                    href="https://www.byui.edu/online">BYUI Online Learning</a> | <a href="resource.html">Resource
+                    Page</a> |
+                <span class="highlighted">Last Edited: <span id="lastModified"></span></span></p>
+        </div>
+    </footer>
+    <script src="js/currentYear.js"></script>
+    <script src="js/lastModified.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/lazyloadcode.js"></script>
+    <srcipt src="js/displayAlert"></srcipt>
+</body>
+
+</html>
