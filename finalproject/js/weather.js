@@ -11,15 +11,10 @@ fetch(weatherAPI)
         document.getElementById('temperatureinput').textContent = Math.round(tempF);
         document.getElementById('weatherdescription').textContent = desc;
         document.getElementById('weatherhumidity').textContent = jsObject.current.humidity;
-        document.getElementById('alertarea').textcontent = desc;
-
-        //if (jsObject.current.humidity != null) {
-        //document.getElementById('alertarea').textcontent = "test";
-        //} 
         
-        //if (jsObject.alerts != null) {
-          //  document.querySelector(".alertarea").textcontent = jsObject.alerts.description;
-        //} 
+        if (jsObject.alerts != null) {
+            document.getElementById('alertarea').innerHTML = jsObject.alerts.description;
+        }
     });
 
 function closebutton() {
