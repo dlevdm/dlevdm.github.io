@@ -22,7 +22,8 @@
     }
 
     /* Lazy Load Gallery */
-    .lazyloadgallery, .rentaltypes {
+    .lazyloadgallery,
+    .rentaltypes {
         grid-template-columns: 1fr 1fr;
         grid-gap: 0.5em;
     }

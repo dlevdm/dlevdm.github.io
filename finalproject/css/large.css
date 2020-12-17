@@ -24,15 +24,6 @@
 		padding: 0 10em;
 	}
 
-	header img {
-		max-width: 350px;
-		height: auto;
-	}
-
-	.subheading1 {
-		font-size: 1.5em;
-	}
-
 	.navigation {
 		display: flex;
 	}
@@ -49,6 +40,15 @@
 
 	.navigation li:first-child {
 		display: none;
+	}
+
+	header img {
+		max-width: 350px;
+		height: auto;
+	}
+
+	.subheading1 {
+		font-size: 1.5em;
 	}
 
 	h1 {
@@ -85,10 +85,6 @@
 	.weathersummary h2 {
 		padding-top: 0.5em;
 	}
-	
-
-	/* Table */
-	
 
 	.mainarticle img {
 		max-width: 35%;
@@ -98,10 +94,11 @@
 		margin-left: 1em;
 		margin-top: 5em;
 	}
-	
+
 
 	/* Lazy Load Gallery */
-	.lazyloadgallery, .rentaltypes {
+	.lazyloadgallery,
+	.rentaltypes {
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 2em;
 	}

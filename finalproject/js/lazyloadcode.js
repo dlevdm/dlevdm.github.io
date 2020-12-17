@@ -13,7 +13,9 @@ const imgOptions = {
 
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
-    image.onload = () => {image.removeAttribute('data-src');};
+    image.onload = () => {
+        image.removeAttribute('data-src');
+    };
 };
 
 // Load images
@@ -21,19 +23,18 @@ const loadImages = (image) => {
 if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((items, observer) => {
         items.forEach((item) => {
-    
-    if (item.isIntersecting) {
+
+            if (item.isIntersecting) {
                 loadImages(item.target);
-                observer.unobserve(item.target);}
+                observer.unobserve(item.target);
+            }
         });
     }, imgOptions);
 
     imagesToLoad.forEach((img) => {
         observer.observe(img);
     });
-    } 
-    
-    else {
+} else {
     imagesToLoad.forEach((img) => {
         loadImages(img);
     });

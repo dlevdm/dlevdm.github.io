@@ -11,7 +11,7 @@ fetch(weatherAPI)
         document.getElementById('temperatureinput').textContent = Math.round(tempF);
         document.getElementById('weatherdescription').textContent = desc;
         document.getElementById('weatherhumidity').textContent = jsObject.current.humidity;
-        
+
         if (jsObject.alerts != null) {
             document.getElementById('alertarea').innerHTML = jsObject.alerts.description;
         }
